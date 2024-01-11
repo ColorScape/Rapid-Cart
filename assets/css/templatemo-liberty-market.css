@@ -106,12 +106,13 @@ body {
   background: #7453fc;
   color: #fff;
 }
-
+.border-button a{
+  background-color: rgb(78, 78, 78);
+}
 .border-button a {
   font-size: 14px;
   color: #fff;
-  background-color: transparent;
-  border: 1px solid #ffa500;
+  border: 1px solid #ffffff;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -700,11 +701,12 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/banner1.jpg);
+  background-image: url(../images/back3.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 290px;
+  width:100%;
+  padding-top: 350px;
   padding-bottom: 240px;
   background-color: #2a2a2a;
 }
