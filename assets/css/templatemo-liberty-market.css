@@ -796,7 +796,7 @@ Categories & Collections Style
 }
 
 .categories-collections:after {
-  background-image: url(/assets/images/category-collection-dec.png);
+  
   width: 300px;
   height: 282px;
   position: absolute;
@@ -1636,7 +1636,40 @@ Details Page Style
   content: '';
   z-index: 1;
 }
-
+.pagination .active{
+  background-color: #ffa500;
+  color:#fff;
+}
+.pagination button{
+  display: inline-block;
+  position:center;
+  text-align: center;
+  padding:20px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  border: 1px solid #ffa500;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+}
+.pagination button .active{
+  background-color: #ffa500;
+  color:#fff;
+}
+.pagination button:hover{
+  background-color: #ffa500;
+  color:#fff;
+}
+.pagination{
+  display: inline-block;
+  margin-right:200px;
+  position:center;
+  text-align: center;
+  padding:20px 20px;
+}
 .item-details-page .left-image {
   margin-right: 30px;
 }
@@ -1801,7 +1834,9 @@ Details Page Style
   flex-basis: 80%;
   display: inline-flex;
 }
-
+.left-img img{
+  cursor:zoom-in;
+}
 .current-bid .item .right-content {
   padding: 30px;
   width: 100%;
